@@ -1,0 +1,19 @@
+if(place_meeting(x,y+48,obj_player)||place_meeting(x+48,y,obj_player)
+||place_meeting(x-48,y,obj_player))
+{
+	if(keyboard_check_pressed(ord("Z")))
+	{
+		if(!has_text)
+		{
+			instance_create_depth(0,0,-99,obj_textbox);
+			obj_textbox.temp_arr=dialogue;
+		}
+		else
+		{
+			if(obj_textbox.temp_page==2)
+			{
+				instance_create_depth(0,0,-99,obj_selection);
+			}
+		}
+	}
+}

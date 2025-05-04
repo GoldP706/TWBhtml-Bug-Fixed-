@@ -1,0 +1,1 @@
+dialogue = ["A sturdy desk."];

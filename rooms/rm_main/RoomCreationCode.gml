@@ -6,6 +6,7 @@ if(obj_player.prev_room == rm_inside)
 	obj_player.x = 162;
 	obj_player.y=505;
 }
+
 /*
 if(obj_player.prev_room == rm_main_dream)
 {

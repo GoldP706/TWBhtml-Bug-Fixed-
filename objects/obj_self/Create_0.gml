@@ -8,4 +8,4 @@ dialogue = [
 	"Thank you. Now, let us go back to the waking world."
 ]
 
-end_dialgoue=false;
+end_dialogue=false;

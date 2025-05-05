@@ -31,6 +31,7 @@
     {"name":"inst_FCDB4BE","path":"rooms/rm_main_dream/rm_main_dream.yy",},
     {"name":"inst_F9946C","path":"rooms/rm_main_dream/rm_main_dream.yy",},
     {"name":"inst_1E616069","path":"rooms/rm_main_dream/rm_main_dream.yy",},
+    {"name":"inst_2016FE29","path":"rooms/rm_main_dream/rm_main_dream.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -68,6 +69,7 @@
         {"$GMRInstance":"v1","%Name":"inst_3411DBB7_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3411DBB7_1","objectId":{"name":"obj_play_sound","path":"objects/obj_play_sound/obj_play_sound.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":608.0,},
         {"$GMRInstance":"v1","%Name":"inst_D4BC396_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_D4BC396_1","objectId":{"name":"obj_lake_trees","path":"objects/obj_lake_trees/obj_lake_trees.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":371.0,"y":255.0,},
         {"$GMRInstance":"v1","%Name":"inst_433D47B5_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_433D47B5_1","objectId":{"name":"obj_woods_entrance","path":"objects/obj_woods_entrance/obj_woods_entrance.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2016FE29","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2016FE29","objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":896.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":16,"TileCompressedData":[
           -136,-2147483648,1,14,-3,-2147483648,1,14,-20,-2147483648,1,14,-17,-2147483648,1,3,-15,-2147483648,1,

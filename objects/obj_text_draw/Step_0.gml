@@ -40,7 +40,7 @@ if(obj_player.prev_room==rm_lakeview&&!global.end_ch0)
 		}
 }
 
-if(room==rm_sleep_cut && obj_fadeout_static.timer>=270)
+if(room==rm_sleep_cut && obj_fadeout_static.timer>=270 && !instance_exists(obj_textbox))
 {
 	instance_create_depth(0,0,-1000,obj_textbox);
 	obj_textbox.temp_arr = dialogue_sleep;
@@ -59,7 +59,7 @@ if(room==rm_main_dream && obj_player.in_dream==false)
 
 if(end_opening_text)
 {
-	room_goto(rm_main);
+	room_goto(rm_inside);
 }
 if(end_sleep_text)
 {

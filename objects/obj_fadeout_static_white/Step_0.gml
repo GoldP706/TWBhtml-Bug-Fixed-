@@ -5,5 +5,5 @@ if(image_alpha<=1)
 
 if(image_alpha>=1)
 {
-	instance_create_depth(0,0,-10000,obj_tbc);
+	instance_create_depth(0,0,-1600000000,obj_tbc);
 }

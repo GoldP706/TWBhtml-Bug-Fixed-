@@ -9,6 +9,7 @@ if(place_meeting(x,y+48,obj_player)||place_meeting(x+48,y,obj_player)||place_mee
 			obj_textbox.temp_arr = dialogue;
 			
 		}
+		
 		else if (!first_dialogue&&!end_dialogue)
 		{
 			obj_textbox.temp_arr = dialogue_repeat;
@@ -17,6 +18,7 @@ if(place_meeting(x,y+48,obj_player)||place_meeting(x+48,y,obj_player)||place_mee
 		if(end_dialogue)
 		{
 			instance_destroy(obj_textbox);
+			//end_dialogue=false;
 		}
 		
 	}

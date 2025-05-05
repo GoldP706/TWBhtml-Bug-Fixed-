@@ -47,3 +47,28 @@ if(!instance_exists(obj_textbox))
 {
 	move_speed=3;
 }
+
+//camera stuff
+if(instance_exists(obj_camera))
+{
+	//left
+	if(x<obj_camera.x + obj_camera.view_width/2)
+		{
+			obj_camera.x-=move_speed;
+		}
+	//right
+	if(x>obj_camera.x + obj_camera.view_width/2)
+		{
+			obj_camera.x +=move_speed;
+		}
+	//up
+	if(y<obj_camera.y + obj_camera.view_height/2)
+		{
+			obj_camera.y -=move_speed;
+		}
+	//down
+	if(y>obj_camera.y + obj_camera.view_height/2)
+		{
+			obj_camera.y +=move_speed;
+		}
+}

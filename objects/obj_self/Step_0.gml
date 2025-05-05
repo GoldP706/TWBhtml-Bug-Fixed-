@@ -3,10 +3,13 @@ if(place_meeting(x,y+48,obj_player)||place_meeting(x+48,y,obj_player)
 {
 	if(keyboard_check_pressed(ord("Z")))
 	{
-		if(!has_text)
+		if(!end_dialogue)
 		{
-			instance_create_depth(0,0,-99,obj_textbox);
-			obj_textbox.temp_arr=dialogue;
+			if(!instance_exists(obj_textbox))
+			{
+				instance_create_depth(0,0,-99,obj_textbox);
+				obj_textbox.temp_arr=dialogue;
+			}
 		}
 		
 	}
@@ -22,10 +25,9 @@ if(place_meeting(x,y+48,obj_player)||place_meeting(x+48,y,obj_player)
 		{
 			instance_destroy(obj_self_answer);
 		}
+		if(obj_textbox.temp_page==6)
+		{
+			room_goto(rm_temp_end);
+		}
 	}
-}
-
-if(end_dialogue)
-{
-	instance_create_depth(0,0,-9999,obj_fadeout_static_white);
 }

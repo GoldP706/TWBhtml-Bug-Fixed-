@@ -1,5 +1,10 @@
 pos();
 
+if(instance_exists(obj_fadeout_static_white))
+{
+	depth = 9999;
+}
+
 if(instance_exists(obj_player))
 {
 	obj_player.move_speed=0;
@@ -67,6 +72,8 @@ if(_accept_key && temp_letter_pos==temp_page_size)
 			{
 				obj_mind.end_dialogue = true;
 				obj_mind.first_dialogue=false;
+				obj_heart.first_dialogue=true;
+				//obj_heart.end_dialogue = false;
 			}
 		}
 		else if(instance_exists(obj_heart))

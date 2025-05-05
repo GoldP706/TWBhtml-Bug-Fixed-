@@ -7,7 +7,7 @@ dialogue = [
 ]
 
 dialogue_repeat = [
-	"repeat dialogue"
+	"'Go on. You'll find what you want if you know where to look.'"
 ]
 
 first_dialogue=true;

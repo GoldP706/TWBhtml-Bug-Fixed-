@@ -28,7 +28,41 @@ if(keyboard_check_pressed(vk_down))
 		image_index=3;
 	}
 }
-if(keyboard_check_pressed(ord("Z")))
+if(keyboard_check_pressed(ord("Z")))//store answers for later
 {
+	switch(sprite_index)
+	{
+		case spr_self_answer:
+			switch(image_index)
+			{
+				case 0:
+					break;
+				case 1:
+					break;
+				case 2:
+					break;
+			}
+		case spr_self_answer_2:
+			switch(image_index)
+			{
+				case 0:
+					break;
+				case 1:
+					break;
+				case 2:
+					break;
+			}
+		case spr_self_answer_3:
+			switch(image_index)
+			{
+				case 0:
+					break;
+				case 1:
+					break;
+				case 2:
+					break;
+			}
+			
+	}
 	instance_destroy();
 }

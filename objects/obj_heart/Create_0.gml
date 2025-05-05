@@ -5,7 +5,7 @@ dialogue = [
 ]
 
 dialogue_repeat = [
-	""
+	"'Follow your intuition. You'll find what you've been looking for.'"
 ]
 
 first_dialogue=true;

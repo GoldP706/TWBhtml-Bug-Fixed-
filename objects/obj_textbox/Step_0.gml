@@ -77,6 +77,13 @@ if(_accept_key && temp_letter_pos==temp_page_size)
 				obj_heart.first_dialogue=false;
 			}
 		}
+		else if(instance_exists(obj_self))
+		{
+			if(temp_arr == obj_self.dialogue)
+			{
+				obj_self.end_dialogue = true;
+			}
+		}
 		else
 		{
 			instance_destroy();

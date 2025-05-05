@@ -1,0 +1,1 @@
+draw_sprite(spr_tbc,0,0,0);

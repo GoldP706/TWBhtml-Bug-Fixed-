@@ -24,3 +24,8 @@ if(place_meeting(x,y+48,obj_player)||place_meeting(x+48,y,obj_player)
 		}
 	}
 }
+
+if(end_dialogue)
+{
+	instance_create_depth(0,0,-9999,obj_fadeout_static_white);
+}

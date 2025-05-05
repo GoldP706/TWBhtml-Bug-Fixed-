@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_self_answer",
+    "path":"sprites/spr_self_answer/spr_self_answer.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

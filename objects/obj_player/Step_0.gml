@@ -47,5 +47,3 @@ if(!instance_exists(obj_textbox))
 {
 	move_speed=3;
 }
-
-show_debug_message(global.end_ch0);

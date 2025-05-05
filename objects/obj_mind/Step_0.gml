@@ -2,24 +2,22 @@ if(place_meeting(x,y+48,obj_player)||place_meeting(x+48,y,obj_player)||place_mee
 {
 	if(keyboard_check_pressed(ord("Z")))
 	{
-		instance_create_depth(room_width/2, room_height/2, -99, obj_textbox);
-		if(first_dialogue)
+		if(!instance_exists(obj_textbox))
+		{instance_create_depth(room_width/2, room_height/2, -99, obj_textbox);}
+		if(first_dialogue&&!end_dialogue)
 		{
 			obj_textbox.temp_arr = dialogue;
 			
 		}
-		else
+		else if (!first_dialogue&&!end_dialogue)
 		{
 			obj_textbox.temp_arr = dialogue_repeat;
 		}
 		
-		if(instance_exists(obj_textbox))
+		if(end_dialogue)
 		{
-			if(obj_textbox.temp_page==array_length(obj_textbox.temp_arr))
-			{
-				instance_destroy(obj_textbox);
-				first_dialogue=false;
-			}
+			instance_destroy(obj_textbox);
 		}
+		
 	}
 }

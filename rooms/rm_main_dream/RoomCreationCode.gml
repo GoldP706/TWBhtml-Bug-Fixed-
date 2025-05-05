@@ -1,7 +1,8 @@
 instance_create_depth(0,0,-999,obj_fadein);
 
-if(obj_player.prev_room == rm_inside)
+if(obj_player.prev_room == rm_inside_dream)
 {
+	audio_play_sound(door,10,0);
 	obj_player.x = 162;
 	obj_player.y=505;
 }

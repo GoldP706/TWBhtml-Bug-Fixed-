@@ -1,8 +1,12 @@
 _frame=image_index;
 
-if(obj_textbox.temp_page == 4)
+if(obj_textbox.temp_page == 3)
 {
 	_sprite = spr_self_answer_2;
+}
+if(obj_textbox.temp_page == 4)
+{
+	_sprite = spr_self_answer_3;
 }
 
 if(keyboard_check_pressed(vk_up))

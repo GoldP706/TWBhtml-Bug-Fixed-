@@ -61,6 +61,22 @@ if(_accept_key && temp_letter_pos==temp_page_size)
 				obj_text_draw.end_sleep_text = true;
 			}
 		}
+		else if(instance_exists(obj_mind))
+		{
+			if(temp_arr == obj_mind.dialogue)
+			{
+				obj_mind.end_dialogue = true;
+				obj_mind.first_dialogue=false;
+			}
+		}
+		else if(instance_exists(obj_heart))
+		{
+			if(temp_arr == obj_heart.dialogue)
+			{
+				obj_heart.end_dialogue = true;
+				obj_heart.first_dialogue=false;
+			}
+		}
 		else
 		{
 			instance_destroy();

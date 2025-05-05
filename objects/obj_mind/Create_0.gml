@@ -7,7 +7,7 @@ dialogue = [
 ]
 
 dialogue_repeat = [
-	""
+	"repeat dialogue"
 ]
 
 first_dialogue=true;
